@@ -1,9 +1,3 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -832,6 +826,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   margin: 0 auto 30px auto;
 }
+.sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
 
 #schedule .tab-pane {
   transition: ease-in-out .2s;
@@ -894,11 +894,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #venue {
-  padding: 60px 0;
+  padding: 0 0;
 }
 
 #venue .container-fluid {
-  margin-bottom: 3px;
 }
 
 #venue .venue-map iframe {
@@ -1158,7 +1157,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #subscribe {
-  padding: 60px;
+  padding: 150px 60px;
   background: url(../img/subscribe-bg.jpg) center center no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -1201,10 +1200,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   outline: none;
   font-size: 14px;
   border-radius: 50px;
+  width: 200px;
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: none;
+  border: solid #f82249;
+  width: 250px;
 }
 
 /*--------------------------------------------------------------
@@ -1658,5 +1660,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 460px) {
   #subscribe button {
     margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+/* main style */
+.registration_button {
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .h2_for_mobile {
+    font-size: 23px !important;
   }
 }
